@@ -6,7 +6,7 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from luac import get_server_count
+from funcs import get_server_count
 
 if __name__ == "__main__":
     game_id = input("enter script (gameid)")
